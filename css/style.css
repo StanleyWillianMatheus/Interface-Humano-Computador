@@ -1,0 +1,230 @@
+@charset "UTF8";
+/*///////////////// RESET /////////////////*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: verdana,serif;
+}
+body{
+    background-color: #FFF5EE;
+    width: 100%;	
+    margin: auto;
+}
+ul, ol, li, a{
+    list-style: none !important;
+    text-decoration: none !important;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/*///////////////// RESET /////////////////*/
+
+/*///////////////// HEADER /////////////////*/
+header{
+    background-image: url('../img/glasser2352.jpg');
+    background-size: 100% 100%;
+    display: block;
+    width: 100%;
+    height: 850px;
+}
+header img{
+    display: block;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    
+}
+nav ul h1{
+    color: #fff;
+    display: inline-block;
+    margin:10px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 15px;
+    float: right;
+
+}
+nav ul li a{
+    size: 12pt;
+    color: #fff;
+}
+nav ul li a:hover{
+    color: #000;
+    text-transform: capitalize;
+}
+/*///////////////// HEADER /////////////////*/
+
+/*///////////////// SECTION /////////////////*/
+section{
+    display: block;
+}
+article{
+    margin: auto;
+    width: 100%;
+}
+.focado{
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+}
+.m80{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.os1{
+    text-align: left;
+    width: 30%;
+    display: inline-table;
+    margin: auto;
+}
+.os2{
+    text-align: left;
+    width: 30%;
+    display: inline-table;
+    margin: auto;
+}
+.os3{
+    text-align: left;
+    width: 30%;
+    display: inline-table;
+    margin: auto;
+}
+.descubra{
+    margin-top: 30px;
+    text-align: center;
+}
+.dispositivo{
+    text-align: center;
+}
+video{
+    max-width: 100%;
+}
+.video{
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+}
+ul#albumdefotos{
+    padding: 50px;
+    width: 73%;
+    margin: auto;
+    overflow: hidden;
+    list-style: none;
+}
+ul#albumdefotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #fff;
+    background-color:#fff;
+    box-shadow: 1px 1px 3px rgba(0,0,0, 0.4);
+    display:block;
+}
+ul#albumdefotos li span{
+    opacity: 0;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgba(0,0,0,.3); 
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+ul#albumdefotos li:hover span{
+    opacity: 1;
+}
+ul#albumdefotos li#foto1{
+    background: url('../img/album/1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%; 
+    background-color: #fff;
+}
+ul#albumdefotos li:hover{
+    -webkit-transform: scale(1.5);
+}
+ul#albumdefotos li#foto2{
+    background: url('../img/album/2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%; 
+    background-color: #fff;
+}
+ul#albumdefotos li#foto3{
+    background: url('../img/album/3.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%; 
+    background-color: #fff;
+}
+ul#albumdefotos li#foto4{
+    background: url('../img/album/4.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-color: #fff;
+}
+ul#albumdefotos li#foto5{
+    background: url('../img/album/5.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-color: #fff;
+}
+ul#albumdefotos li#foto6{
+    background: url('../img/album/6.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%; 
+    background-color: #fff;
+}
+ul#albumdefotos li#foto7{
+    background: url('../img/album/7.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%; 
+    background-color: #fff;
+}
+ul#albumdefotos li#foto8{
+    background: url('../img/album/8.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%; 
+    background-color: #fff;
+}
+ul#albumdefotos li#foto9{
+    background: url('../img/album/9.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%; 
+    background-color: #fff;
+}
+ul#albumdefotos li#foto10{
+    background: url('../img/album/10.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%; 
+    background-color: #fff;
+}
+ul#albumdefotos li#foto11{
+    background: url('../img/album/11.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%; 
+    background-color: #fff;
+}
+ul#albumdefotos li#foto12{
+    background: url('../img/album/12.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%; 
+    background-color: #fff;
+}
+/*///////////////// SECTION /////////////////*/
+
+/*///////////////// FOOTER /////////////////*/
+footer{
+    width: 100%;
+    height: 40px;
+    display: block;
+}
+.footer-meio{
+    padding-top: 10px;
+    text-align: center;
+}
+/*///////////////// FOOTER /////////////////*/
