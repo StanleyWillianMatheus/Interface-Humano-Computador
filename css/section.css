@@ -5,4 +5,69 @@ section{
     background-color: white;
     margin: auto;
 }
+.negocios{
+	width: 456px;
+	height: 310px;
+	margin:10px 0px 10px 20px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.paragrafo-direita{
+	display: inline-block;
+	width: 570px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-meio{
+	margin: 20px;
+}
+.contato{
+	border-radius: 3px;
+	color: white;
+	background-color: #1ebb90;
+	width: 220px;
+	margin: auto;
+	padding:10px;
+}
+.contato-paragrafo{
+	margin: 10px;
+}
+#fContato{
+	margin: 10px;
+}
+#usuario p{
+	display: inline-block;
+}
+#sexo {
+	display: inline-block;
+}
+#sexo input{
+	margin: 4px;
+}
+#sexo p{
+	display: inline-block;
+}
+.cFemm{
+	margin-right: 10px;
+}
+#usuario{
+	width: 600px;
+	display: inline-block;
+	margin-left: 70px;
+}
+#mensagemm{
+	width: 650px;
+	margin-left: 80px;
+}
+textarea{
+	margin: 10px;
+}
+.contato-enviar{
+	border-radius: 3px;
+	color: white;
+	background-color: #1ebb90;
+	width: 80px;
+	margin: auto;
+	padding:10px;
+}
 /*///////////////// SECTION /////////////////*/

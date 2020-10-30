@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Inventory Control</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Um dispositivo de mãos livres para um trabalho prático mais inteligente e rápido." />
+    <meta name="keywords" content="Glass" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Stanley Willian Matheus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/estoque.jpg" />
+    <link rel="stylesheet" type="text/css" href="sistema.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><h1 class="logo">Inventory Control</h1></a>               
+
+                <li><a href="../index.html">Sair</a></li>
+                <li class="dropdown"><a href="#" class="dropdown_btn">Produto</a>
+                    <div class="dropdown_menu">
+                        <a href="cadastro de produto.html">Cadastro de Produto</a>
+                        <a href="produtos.html">Produtos Cadastrados</a>
+                    </div>
+                </li>           
+                <li class="dropdown"><a href="#" class="dropdown_btn">Cliente</a>
+                    <div class="dropdown_menu">
+                        <a href="cadastro de cliente.html">Cadastro de Cliente</a>
+                        <a href="clientes.html">Clientes Cadastrados</a>
+                    </div>
+                </li>
+                <li><a href="sistema inicio.html">Inicio</a></li>                
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1 class="titulo">Produtos</h1>
+            <form>                
+                <fieldset id="usuario"><legend>Indentificação do Produto</legend>
+                    <p><label for="cId">ID: </label>
+                    <input type="number" name="tId" id="cId" min="0" max="99999" placeholder="0"></p>
+
+                    <p><label for="cNome">Nome: </label>
+                    <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Produto"></p>
+
+                    <p class="descricao1"><label for="cMsg">Descrição: </label>
+                    <textarea class="cMsg" name="tMsg" id="cMsg" cols="55" rows="2" placeholder="Deixe sua Anotação."></textarea></p>
+
+                    <p class="data-validade"><label for="cData">Data de Validade: </label>
+                    <input type="date" name="tData" id="cData"></p>
+                </fieldset>
+
+                <fieldset id="usuario"><legend>Estoque</legend>
+                    <p><label for="cNum">Valor Unidade: </label>
+                    <input type="number" name="tNum" id="cNum" min="0" max="99999" placeholder="0"></p>
+
+                    <p><label for="cNum">Quantidade em Estoque: </label>
+                    <input type="number" name="tNum" id="cNum" min="0" max="99999" placeholder="0"></p>
+                    
+                    <p><label for="cNum">Quantidade disponivel: </label>
+                    <input type="number" name="tNum" id="cNum" min="0" max="99999" placeholder="0"></p>
+
+                    <p class="ultima"><label for="cNum">Quantidade Vendida: </label>
+                    <input type="number" name="tNum" id="cNum" min="0" max="99999" placeholder="0"></p>
+                </fieldset>                
+            </form>
+            <form>
+                <fieldset id="mensagem"><legend>Anotações</legend>
+                    <p class="cimamsg"><label class="cMsg" for="cMsg">Anotações: </label>
+                    <textarea class="msggggg" name="tMsg" id="cMsg" cols="55" rows="17" placeholder="Deixe sua Anotação."></textarea></p>
+                </fieldset>
+            </form>
+            <a href="produtos.html"><h1 class="botão-cadastrar">Salvar</h1></a>
+    </section> 
+
+    <footer>
+        <p class="footer-meio">© Copyright 2020. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -78,3 +78,40 @@ table{
 td{
     padding: 5px;
 }
+.botão-cadastrar{
+    border-radius: 3px;
+    color: white;
+    background-color: #1ebb90;
+    margin: auto;
+    padding:10px;
+    width: 140px;
+}
+.botão-salvar{
+    border-radius: 3px;
+    color: white;
+    background-color: #1ebb90;
+    margin: auto;
+    padding:10px;
+    width: 110px;
+}
+.cMsg{
+    margin: 5px 0px 0px 15px;
+}
+.descricao1{
+    margin-top: 7px;
+}
+.data-validade{
+    margin-bottom: 10px;
+}
+.ultima{
+    margin-bottom: 10px;
+}
+.msggggg{
+    margin: 5px 0px 10px 15px;
+}
+.cimamsg{
+    margin-top: 5px;
+}
+.msgclient{
+    margin: 5px 0px 0px 16px;
+}

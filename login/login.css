@@ -47,12 +47,12 @@ form{
 	padding: 10px 5px 5px 5px;
 }
 .entrar{
+	border-radius: 3px;
+	color: white;
+	background-color: #1ebb90;
 	text-align: center;
-	background-color: #C0C0C0;
 	padding: 10px;
-	box-shadow: #696969 3px 3px 5px !important;
 	margin-left: 160px;
-	color: black;
 }
 .esqueceu{
 	color: black;
@@ -60,28 +60,28 @@ form{
 	margin-left: 123px;
 }
 .redefinir{
+	border-radius: 3px;
+	color: white;
+	background-color: #1ebb90;
 	text-align: center;
-	background-color: #C0C0C0;
 	padding: 10px;
-	box-shadow: #696969 3px 3px 5px !important;
 	margin-left: 50px;
-	color: black;
 }
 .voltar{
+	border-radius: 3px;
+	color: white;
+	background-color: #1ebb90;
 	text-align: center;
-	background-color: #C0C0C0;
 	padding: 10px;
-	box-shadow: #696969 3px 3px 5px !important;
 	margin-left: 50px;
-	color: black;
 }
 .voltarR{
+	border-radius: 3px;
+	color: white;
+	background-color: #1ebb90;
 	text-align: center;
-	background-color: #C0C0C0;
 	padding: 10px;
-	box-shadow: #696969 3px 3px 5px !important;
 	margin-left: 160px;
-	color: black;
 }
 h1{
 	color: red;

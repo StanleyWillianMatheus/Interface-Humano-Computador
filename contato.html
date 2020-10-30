@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Inventory Control</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Um dispositivo de mãos livres para um trabalho prático mais inteligente e rápido." />
+    <meta name="keywords" content="Glass" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Stanley Willian Matheus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/estoque.jpg" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/slide.css">
+    <link rel="stylesheet" type="text/css" href="css/section.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><h1 class="logo">IC Inventory Control</h1></a>
+
+                <li><a href="login/login.html">Login</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="index.html">Inicio</a></li>                
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slides">
+        <br>
+        <h1 class="h1-slide">Soluções Inteligentes</h1>
+        <h1 class="h1-slide">Praticidade</h1>
+        <h1 class="h1-slide">Inovação</h1>
+    </div>
+
+    <section>
+        <article>
+            <h1>Contate-nos</h1>
+            <p class="contato-paragrafo">Consulte nos! O nosso objetivo maior é ouvirmos o cliente e o ajudamos a identificar soluções e objetivos. Ao trabalharmos próximo à você em todas as disciplinas, projetamos soluções capazes de gerar valor real ao seu negócio. Faça nos uma consulta, nossos especialistas terão imenso prazer em atendê-lo.</p>
+
+            <form method="post" id="fContato">
+                <fieldset id="usuario"><legend>Indentificação do Usuário</legend>
+                    <p><label for="cNome">Nome: </label>
+                    <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"></p>
+
+                    <p><label for="cEmail">E-mail: </label>
+                    <input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="E-mail"></p>
+                </fieldset>
+
+                <fieldset id="sexo"><legend>Sexo</legend>
+                    <p><input type="radio" name="tSexo" id="cMasc" checked=""><label for="cMasc">Masculino</label></p>
+                    <p><input type="radio" name="tSexo" id="cFem"><label class="cFemm" for="cFem">Feminino</label></p>
+                </fieldset>
+            </form>
+            <form method="post" id="mensagemm">
+                <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
+                    <p><label for="cUrg">Grau de Urgência: </label>
+                    <input type="range" name="tUrg" id="tUrg" min="0" max="10" step="1"></p>
+
+                    <p><label for="cMsg">Mensagem: </label>
+                    <textarea name="tMsg" id="cMsg" cols="105" rows="10" placeholder="Deixe sua mensagem"></textarea></p>
+                </fieldset>
+            </form>
+            <br>
+            <a href="contato.html"><h1 class="contato-enviar">Enviar</h1></a>
+            <br>
+        </article>
+    </section>  
+
+    <footer>
+        <p class="footer-meio">© Copyright 2020. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

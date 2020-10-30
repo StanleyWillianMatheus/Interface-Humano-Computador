@@ -17,17 +17,22 @@
     <header>
         <nav>
             <ul>
-                <a href="index.html"><img class="logoimg" src="../img/estoque.jpg"></a>
                 <a href="index.html"><h1 class="logo">Inventory Control</h1></a>               
 
-                <li><a href="../index.html">Sair</a></li> 
+                <li><a href="../index.html">Sair</a></li>
+                <li class="dropdown"><a href="#" class="dropdown_btn">Produto</a>
+                    <div class="dropdown_menu">
+                        <a href="cadastro de produto.html">Cadastro de Produto</a>
+                        <a href="produtos.html">Produtos Cadastrados</a>
+                    </div>
+                </li>           
                 <li class="dropdown"><a href="#" class="dropdown_btn">Cliente</a>
                     <div class="dropdown_menu">
                         <a href="cadastro de cliente.html">Cadastro de Cliente</a>
                         <a href="clientes.html">Clientes Cadastrados</a>
                     </div>
                 </li>
-                <li><a href="sistema inicio.html">Inicio</a></li>               
+                <li><a href="sistema inicio.html">Inicio</a></li>                
             </ul>
         </nav>
     </header>
@@ -95,9 +100,7 @@
 
                     <p><label for="cCep">CEP: </label>
                     <input type="number" name="tCep" id="cCep" size="8" maxlength="8" placeholder="00000-000"></p>
-                </fieldset>
-
-                
+                </fieldset>                
             </form>
             <form>
                 <fieldset id="usuario"><legend>Contato do Cliente</legend>
@@ -113,17 +116,17 @@
 
                 <fieldset id="mensagem"><legend>Anotações</legend>
                     <p><label class="cMsg" for="cMsg">Anotações: </label>
-                    <textarea name="tMsg" id="cMsg" cols="43" rows="14" placeholder="Deixe sua Anotação."></textarea></p>
+                    <textarea class="msgclient" name="tMsg" id="cMsg" cols="55" rows="13" placeholder="Deixe sua Anotação."></textarea></p>
 
                     <p><label for="cUrg">Grau de Urgência: </label>
                     <input type="range" name="tUrg" id="cUrg" min="0" max="10" step="1"></p>
                 </fieldset>
             </form>
-            colocar botão
+            <a href="cadastro de cliente.html"><h1 class="botão-cadastrar">Cadastrar</h1></a>            
     </section> 
 
     <footer>
-        <p class="footer-meio">© Copyright 2019. Todos os direitos reservados.</p>
+        <p class="footer-meio">© Copyright 2020. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>

@@ -2,11 +2,7 @@
 /*///////////////// HEADER /////////////////*/
 header{
     width: 100%;    
-    background-color: rgb(105,105,105);
-}
-.logoimg{
-    width: 25px;
-    height: 25px;
+    background-color: #696969;
 }
 .logo{
     display: inline-block;

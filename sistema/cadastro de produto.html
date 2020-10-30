@@ -38,7 +38,37 @@
     </header>
 
     <section>
-        <img class="img-inicio" src="../img/2.jpg">
+        <h1 class="titulo">Cadastro de Produto</h1>
+            <form>                
+                <fieldset id="usuario"><legend>Indentificação do Produto</legend>
+                    <p><label for="cId">ID: </label>
+                    <input type="number" name="tId" id="cId" min="0" max="99999" placeholder="0"></p>
+
+                    <p><label for="cNome">Nome: </label>
+                    <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Produto"></p>
+
+                    <p class="descricao1"><label for="cMsg">Descrição: </label>
+                    <textarea class="cMsg" name="tMsg" id="cMsg" cols="55" rows="2" placeholder="Deixe sua Anotação."></textarea></p>
+
+                    <p class="data-validade"><label for="cData">Data de Validade: </label>
+                    <input type="date" name="tData" id="cData"></p>
+                </fieldset>
+
+                <fieldset id="usuario"><legend>Estoque</legend>
+                    <p><label for="cNum">Valor Unidade: </label>
+                    <input type="number" name="tNum" id="cNum" min="0" max="99999" placeholder="0"></p>
+
+                    <p class="ultima"><label for="cNum">Quantidade em Estoque: </label>
+                    <input type="number" name="tNum" id="cNum" min="0" max="99999" placeholder="0"></p>
+                </fieldset>                
+            </form>
+            <form>
+                <fieldset id="mensagem"><legend>Anotações</legend>
+                    <p><label class="cMsg" for="cMsg">Anotações: </label>
+                    <textarea class="msggggg" name="tMsg" id="cMsg" cols="55" rows="14" placeholder="Deixe sua Anotação."></textarea></p>
+                </fieldset>
+            </form>
+            <a href="cadastro de produto.html"><h1 class="botão-cadastrar">Cadastrar</h1></a>   
     </section> 
 
     <footer>

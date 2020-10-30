@@ -17,11 +17,15 @@
     <header>
         <nav>
             <ul>
-                <a href="index.html"><img class="logoimg" src="../img/estoque.jpg"></a>
                 <a href="index.html"><h1 class="logo">Inventory Control</h1></a>               
 
                 <li><a href="../index.html">Sair</a></li>
-                             
+                <li class="dropdown"><a href="#" class="dropdown_btn">Produto</a>
+                    <div class="dropdown_menu">
+                        <a href="cadastro de produto.html">Cadastro de Produto</a>
+                        <a href="produtos.html">Produtos Cadastrados</a>
+                    </div>
+                </li>           
                 <li class="dropdown"><a href="#" class="dropdown_btn">Cliente</a>
                     <div class="dropdown_menu">
                         <a href="cadastro de cliente.html">Cadastro de Cliente</a>
@@ -93,9 +97,7 @@
 
                     <p><label for="cCep">CEP: </label>
                     <input type="number" name="tCep" id="cCep" size="8" maxlength="8" placeholder="12345-678"></p>
-                </fieldset>
-
-                
+                </fieldset>                
             </form>
             <form>
                 <fieldset id="usuario"><legend>Contato do Cliente</legend>
@@ -110,17 +112,18 @@
                 </fieldset>
 
                 <fieldset id="mensagem"><legend>Anotações</legend>
-                    <p><label class="cMsg" for="cMsg">Anotações: </label>
-                    <textarea name="tMsg" id="cMsg" cols="43" rows="14" placeholder="Não faz a minima diferença."></textarea></p>
+                    <p class="cimamsg"><label class="cMsg" for="cMsg">Anotações: </label>
+                    <textarea class="msgclient" name="tMsg" id="cMsg" cols="55" rows="12" placeholder="Não faz a minima diferença."></textarea></p>
 
                     <p><label for="cUrg">Grau de Urgência: </label>
                     <input type="range" name="tUrg" id="cUrg" min="0" max="10" step="1"></p>
                 </fieldset>
             </form>
+            <a href="clientes.html"><h1 class="botão-salvar">Salvar</h1></a>
     </section> 
 
     <footer>
-        <p class="footer-meio">© Copyright 2019. Todos os direitos reservados.</p>
+        <p class="footer-meio">© Copyright 2020. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
