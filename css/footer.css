@@ -1,0 +1,13 @@
+@charset "UTF8";
+/*///////////////// FOOTER /////////////////*/
+footer{
+    background-color: rgb(105,105,105);
+    width: 100%;
+    height: 40px;
+    display: block;
+}
+.footer-meio{
+    padding-top: 10px;
+    text-align: center;
+}
+/*///////////////// FOOTER /////////////////*/

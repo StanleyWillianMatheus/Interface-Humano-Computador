@@ -1,0 +1,80 @@
+@charset "UTF8";
+/*///////////////// RESET /////////////////*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: verdana,serif;
+}
+body{
+    background-image: url(../img/body.png);
+    width: 100%;
+    margin: auto;
+
+}
+ul, ol, li, a{
+    list-style: none !important;
+    text-decoration: none !important;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+h1{
+    color: #1ebb90;
+    text-align: center;
+    padding-top: 10px;
+}
+/*///////////////// RESET /////////////////*/
+section{
+    background-color: white;
+    width: 80%;
+    height: 530px;
+    margin: auto;
+}
+.img-inicio{
+    width: 100%;
+    height: 530px;
+}
+form{
+    width: 500px;
+    margin: 0px 0px 0px 25px;
+    display: inline-block;
+}
+label{
+    padding: 15px 0px 0px 15px;
+}
+legend{
+    color: #1ebb90;
+}
+input{
+    margin-top: 8px;
+}
+fieldset{
+    margin-bottom: 10px;
+}
+#sexo{
+    width: 450px;
+    margin-left: 15px; 
+}
+#cRg, #cCep, #cFem{
+    margin-bottom: 10px;
+}
+.titulo{
+    padding-top: -5px; 
+}
+#cEst{
+    margin-top: 10px;
+}
+#cMasc{
+   margin-left: 10px; 
+}
+#cCel, #cUrg{
+    margin-bottom: 13px;
+}
+table{
+    margin: auto;
+}
+td{
+    padding: 5px;
+}

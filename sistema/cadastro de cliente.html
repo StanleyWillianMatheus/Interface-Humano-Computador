@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Inventory Control</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Um dispositivo de mãos livres para um trabalho prático mais inteligente e rápido." />
+    <meta name="keywords" content="Glass" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Stanley Willian Matheus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/estoque.jpg" />
+    <link rel="stylesheet" type="text/css" href="sistema.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><img class="logoimg" src="../img/estoque.jpg"></a>
+                <a href="index.html"><h1 class="logo">Inventory Control</h1></a>               
+
+                <li><a href="../index.html">Sair</a></li> 
+                <li class="dropdown"><a href="#" class="dropdown_btn">Cliente</a>
+                    <div class="dropdown_menu">
+                        <a href="cadastro de cliente.html">Cadastro de Cliente</a>
+                        <a href="clientes.html">Clientes Cadastrados</a>
+                    </div>
+                </li>
+                <li><a href="sistema inicio.html">Inicio</a></li>               
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slides">
+        
+    </div>
+
+    <section>
+        <h1 class="titulo">Cadastro de Cliente</h1>
+            <form>                
+                <fieldset id="usuario"><legend>Indentificação do Cliente</legend>
+                    <p><label for="cId">ID: </label>
+                    <input type="number" name="tId" id="cId" min="0" max="99999" placeholder="0"></p>
+
+                    <p><label for="cNome">Nome: </label>
+                    <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"></p>
+
+                    <fieldset id="sexo"><legend>Sexo</legend>
+                        <input type="radio" name="tSexo" id="cMasc" checked=""><label for="cMasc">Masculino</label> 
+                        <input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label>
+                    </fieldset>
+
+                    <p><label for="cData">Data de Nascimento: </label>
+                    <input type="date" name="tData" id="cData"></p>
+
+                    <p><label for="cCpf">CPF: </label>
+                    <input type="number" name="tCpf" id="cCpf" size="11" maxlength="11" placeholder="000.000.000-00"></p>
+
+                    <p><label for="cRg">RG: </label>
+                    <input type="number" name="tRg" id="cRg" size="9" maxlength="9" placeholder="000.000.000-00"></p>
+                </fieldset>
+
+                <fieldset id="usuario"><legend>Endereço do Cliente</legend>
+                    
+
+                    <p><label for="cRua">Logradouro: </label>
+                    <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Av, Trav."></p>
+
+                    <p><label for="cNum">Número: </label>
+                    <input type="number" name="tNum" id="cNum" min="0" max="99999" placeholder="0"></p>
+                    
+                    <p><label for="cEst">Estado: </label>
+                    <select name="tEst" id="cEst">
+                        <optgroup label="Região Sudeste">
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="SP" selected>São Paulo</option>
+                            <option value="MG">Minas Gerais</option>
+                        </optgroup>
+                        <optgroup label="Rigião Sul">
+                            <option value="PR">Paraná</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                        </optgroup>
+                    </select></p>
+
+                    <p><label for="cCid">Cidade: </label>
+                    <input type="text" name="tCid" id="tCid" maxlength="40" size="20" placeholder="Sua Cidade" list="cidades"></p>
+                    <datalist id="cidades">
+                        <option value="Rio de Janeiro"></option>
+                        <option value="Nova Iguaçu"></option>
+                        <option value="Niterói"></option>
+                        <option value="Belford Roxo"></option>
+                    </datalist>
+
+                    <p><label for="cCep">CEP: </label>
+                    <input type="number" name="tCep" id="cCep" size="8" maxlength="8" placeholder="00000-000"></p>
+                </fieldset>
+
+                
+            </form>
+            <form>
+                <fieldset id="usuario"><legend>Contato do Cliente</legend>
+                    <p><label for="cEmail">E-mail: </label>
+                    <input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="contato@contato.com"></p>
+
+                    <p><label for="cTel">Telefone: </label>
+                    <input type="number" name="tTel" id="cTel" size="10" maxlength="10" placeholder="00 0000-0000"></p>
+
+                    <p><label for="cCel">Celular: </label>
+                    <input type="number" name="tCel" id="cCel" size="11" maxlength="11" placeholder="00 00000-0000"></p>
+                </fieldset>
+
+                <fieldset id="mensagem"><legend>Anotações</legend>
+                    <p><label class="cMsg" for="cMsg">Anotações: </label>
+                    <textarea name="tMsg" id="cMsg" cols="43" rows="14" placeholder="Deixe sua Anotação."></textarea></p>
+
+                    <p><label for="cUrg">Grau de Urgência: </label>
+                    <input type="range" name="tUrg" id="cUrg" min="0" max="10" step="1"></p>
+                </fieldset>
+            </form>
+    </section> 
+
+    <footer>
+        <p class="footer-meio">© Copyright 2019. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
